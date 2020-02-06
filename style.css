@@ -1,0 +1,152 @@
+/* -----------------
+  reset
+------------------*/
+html, body, header, main, section, div, ul {
+    display: block;
+    margin: 0;
+}
+li {
+    display: inline-block;
+}
+
+
+
+body#all_wrap {
+    width: 100vw;
+    overflow-x: hidden;
+}
+a:hover {
+    color: #555;
+}
+header {
+    display: flex;
+    width: 100vw;
+    height: 60vw;
+    position: relative;
+    background: url("images/header-image-mountain.jpg");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+header h1 {
+    color: #FFF;
+    font-size: 1rem;
+    text-align: center;
+}
+#header_button {
+    width: 6rem;
+    height: 6rem;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #000;
+    background-image: url("images/drone.png");
+    background-size: 3rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+#header_button p {
+    font-weight: bold;
+    margin: 2.5rem 0 0;
+    position: relative;
+    color: #FFF;
+    font-size: .8rem;
+    font-weight: bold;
+    text-align: center;
+}
+#header_button p.serif {
+    font-weight: normal;
+    margin: .5rem 0 0;
+}
+
+
+
+
+section {
+    display: flex;
+    width: 100vw;
+    height: 60vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+section p.rem20 {
+    width: 20rem;
+    margin: 0 auto;
+}
+#box3 {
+    background: #EEE;
+}
+
+
+
+ul.button {
+    margin-top: 2rem;
+    padding: 0;
+}
+ul.button li {
+    width: 10rem;
+    height: 3rem;
+    margin: 0 1rem;
+    position: relative;
+    background-color: #2e8b57;
+    text-align: center;
+    line-height: 3rem;
+}
+ul.button li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul.button li:hover {
+    top: .5rem;
+    left: .5rem;
+}
+
+.movie_bt {
+    display: block;
+    width: 60vw;
+    height: 36vw;
+    position: relative;
+    text-align: center;
+    background: url("images/movie.jpg") no-repeat;
+    background-size: cover;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    background: #CCC;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: #777;
+    text-decoration: none;
+}
+
+
+footer #page_top {
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background: url(images/rocket.png) no-repeat;
+    background-size: cover;
+}
+footer #page_top a {
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    line-height: 5rem;
+}
